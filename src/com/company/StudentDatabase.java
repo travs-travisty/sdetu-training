@@ -65,7 +65,7 @@ public class StudentDatabase {
             System.out.println("UserID: " + UserID);
         }
         private void setEmail() {
-            email = name.toLowerCase() + "." + iD + "@STUDENT.UMGC.EDU";
+            email = name.toLowerCase() + "." + iD + "@student.college.edu";
         }
         public void enroll(String course) {
             this.courses = this.courses + " " + course;
